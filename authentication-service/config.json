@@ -1,0 +1,9 @@
+﻿{
+    "database": {
+        "host":"localhost",
+        "user": "root",
+        "password": "vaishnavi@97",
+        "database": "test"
+    },
+    "secret": "secret string for jwt token"
+}

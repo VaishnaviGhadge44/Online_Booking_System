@@ -1,0 +1,48 @@
+.title{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 5%;
+  }
+  .title_name{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 4%;
+    color: #113344;
+}
+.ant-pagination.ant-table-pagination.ant-table-pagination-right{
+    margin-top:2%  !important;
+  }
+  .ant-spin-container {
+    position: relative;
+    transition: opacity 0.3s;
+    margin: 2% 2%;
+  }
+  .ant-space-item{
+    background-color: grey !important;
+    color: grey;
+  }
+  /* .view-button {
+    background-color: grey !important;
+  }
+  
+  .view-button:hover {
+    background-color: grey;
+  }
+  .ant-btn.ant-btn-button {
+    background-color: grey;
+    margin-left: 30px; */
+/* } */
+.ant-btn.ant-btn-default.view-button{
+  background-color: grey;
+  
+
+}
+
+
+.arrow {
+  display: inline-block;
+  font-size: 24px !important;
+  width: 5rem;
+}

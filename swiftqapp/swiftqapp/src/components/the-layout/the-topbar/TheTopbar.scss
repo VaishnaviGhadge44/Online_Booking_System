@@ -1,0 +1,108 @@
+.topbar {
+  z-index: 999 !important;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #13334a;
+  /* padding: 1.1em; */
+  // width: 100% !important;
+  padding: 0.6em 1.1em;
+  // border-bottom: 1px solid #0002;
+
+  /* box-shadow: 0px 0px 10px #0002; */
+  // button {
+  //   display: flex;
+  //   align-items: center;
+  // }
+  // button svg {
+  //   fill: #bcbccb;
+  //   height: 1.2em;
+  //   line-height: 1.3em;
+  // }
+
+  .notification-icon {
+    position: relative;
+    color:whitesmoke
+  }
+  .notification-dot {
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid #f5f5fa;
+    background-color: #ffc06a;
+  }
+
+  // button:focus svg,
+  // button:hover svg {
+  //   // filter: invert(53%) sepia(6%) saturate(11%) hue-rotate(320deg) brightness(80%) contrast(96%);
+  //   fill: #ffc06a;
+  // }
+
+  .topbar_icons {
+    // border-right: 1px solid #0001;
+    /* padding-right: 1.2em; */
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.4em;
+    margin-right: 1em;
+  }
+
+  .user {
+    font-size: 14px;
+    border-left: 1px solid #0001;
+    padding-left: 1.2em;
+
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+
+    &:hover {
+      color: #000;
+      cursor: pointer;
+    }
+    .user_avatar {
+      background-color: #444;
+      background-repeat: no-repeat;
+      background-size: 38px;
+      vertical-align: middle;
+      height: 38px;
+      width: 38px;
+      border-radius: 50px;
+    }
+  }
+  .user-dropdown {
+    position: absolute;
+    background-color: #f5f5fa;
+    border: 1px solid #ddd;
+    // height: 16rem;
+    z-index: 100;
+    width: 12.35rem;
+    // top: 57px;
+    top: 67px;
+    right: 26px;
+    text-align: center;
+    box-shadow: 0 3px 6px #3332;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 1em;
+    padding: 1.2em 0;
+    h6 {
+      font-size: 0.7em;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+    button {
+      width: 150px;
+    }
+  }
+}

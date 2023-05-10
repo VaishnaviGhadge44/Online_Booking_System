@@ -1,0 +1,22 @@
+import React from 'react'
+import './ErrorMessage.scss'
+
+
+// This is an error component which renders when the API call fails and returns a bad response
+const PageNotFound = (props) => {
+  return (
+    <>
+      <div id="notfound">
+        <div className="notfound">
+          <div className="notfound-404">
+            <h1>Oops!</h1>
+          </div>
+          <h2>Page Not Found</h2>
+        </div>
+      </div>
+    </>
+
+  )
+}
+
+export default PageNotFound

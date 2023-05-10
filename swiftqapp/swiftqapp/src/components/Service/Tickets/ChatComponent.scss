@@ -1,0 +1,120 @@
+.details{
+    padding: 12px 30px 18px 12px;
+  
+   
+}
+
+.k-chat {
+    border-color: rgba(0, 0, 0, 0.08);
+    color: rgb(236, 236, 248) ;
+    background-color: #2e465b !important; 
+    /* #2e465b */
+    
+
+}
+.k-chat {
+    border-color: rgba(0, 0, 0, 0.08);
+    color: #fafafa !important;
+    background-color: #fafafa;
+}
+.k-chat .k-alt .k-bubble {
+    color: black !important;
+    border-color: white !important;
+    color: black !important;
+    background-color: white !important;
+    // box-shadow: 0 1px 2px rgb(255 ,99, 88, 0.2) !important;
+}
+.k-message-list.k-avatars{
+ align-items: center;
+ margin-left: 0;
+ margin-right: 0;
+ 
+
+}
+.k-chat .k-avatar {
+    border-radius: 100%;
+    margin: 0;
+    width: 20px !important;
+    height: 20px !important;
+    position: absolute;
+}
+.k-chat .k-timestamp {
+    color: white !important;
+}
+.k-chat {
+    margin: 5px !important;
+    max-width: 100% !important;
+    height: 800px !important;
+    max-height:100% !important;
+    border-width: 1px;
+    border-style: solid;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.4285714286;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input.k-input, textarea.k-textarea {
+    padding: 8px 16px !important;
+}
+// .ant-btn > span {
+//     display: inline-block;
+//     color: white;
+//     background-color: #113344;
+// }
+
+tr{
+    border-bottom: 2px;
+}
+.ant-card-head-title {
+    display: inline-block;
+    flex: 1 1;
+    padding: 16px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 30px;
+    font-family: ui-sans-serif;
+}
+
+.chat_here{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.close{
+    font-size: 20px;
+    color:#113344;
+}
+.feedback{
+    width: 100%;
+}
+.ant-btn.ant-btn-default.close{
+    color: white;
+    background-color: #113344;
+}
+
+.ant-btn-primary {
+    color: #fff;
+    border-color: #113344 !important;
+    background: #113344 !important;
+}
+.ant-btn.ant-btn-default{
+    color: white;
+    background-color: #113344;
+}
+.ant-btn.ant-btn-default:hover{
+    color: white;
+    background-color: #113344;
+}
+.arrow{
+    margin-top: 20px;
+}
+

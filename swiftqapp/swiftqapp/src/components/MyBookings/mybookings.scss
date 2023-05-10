@@ -1,0 +1,49 @@
+.downloadPdfBtn{
+    text-align: right;
+}
+
+.btnFont{
+    margin-top: 22px;
+    padding-top: 6px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-bottom: 32px !important;
+    font-size: 18px !important;
+}
+
+.centerHeader{
+    text-align: center;
+}
+
+.ant-form-item-label{
+    text-align: left !important;
+}
+
+.ant-input[disabled]{
+    color: darkslategray;
+}
+
+.ant-form label{
+    font-size: 20px !important;
+    color:black !important;
+}
+
+// .formLabel{
+//     color: black !important;
+//     font-size: 18px !important;
+// }
+
+.bookingModal{
+    width: 720px !important;
+}
+
+.ant-modal-title{
+    font-size: 20px !important;
+    font-weight: 900 !important;
+}
+
+.ant-form-item-control-input{
+    width: 95%;
+    display: block;
+    margin : 0 auto;
+}

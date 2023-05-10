@@ -1,0 +1,16 @@
+[
+
+  {
+    "user_name": "Abinash N",
+    "first_name": "Abinash",
+    "last_name": "N",
+    "email_id": "abinash.n@globallogic.com",
+    "password": "abinash@123",
+    "role": "Author Admin",
+    "status": "Disabled",
+    "sub_domain": "GL",
+    "is_active": true,
+    "id": 2
+  }
+ 
+]

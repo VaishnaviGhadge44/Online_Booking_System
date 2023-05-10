@@ -1,0 +1,32 @@
+.Updatebutton:hover,
+.Updatebutton {
+  // background: #13334a;
+  background: #16617d;
+  color: white;
+  text-decoration: none;
+}
+
+.ant-checkbox-inner,
+.ant-checkbox-input {
+  transform: scale(1.4);
+}
+// .checkboxtext {
+//   font-size: 5px;
+// }
+
+.ant-checkbox-wrapper {
+  font-size: 17px;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #16617d;
+  border-color: #16617d;
+}
+
+.warning-note {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 5% !important;
+}
